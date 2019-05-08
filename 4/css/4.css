@@ -1,0 +1,102 @@
+@font-face{
+    font-family: "Pricedown";
+    src:url(../fonts/660_pricedown_rus.ttf);
+}
+body{
+    background:url(../img/YCdWTJ.jpg);
+    width: 1890;
+    height: 900;
+}
+#Head{
+    position: fixed;
+    margin: auto;
+    left: -2px;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0,0,0,0.3);
+    line-height: 10%;
+    outline:3px solid black;
+}
+#Head:hover{
+    background-color:rgba(0,204,0,0.3);
+    opacity: 1;
+}
+#a2{
+    float: right;
+    transform: scaleX(-1);
+    height: 80%;
+    width: 7%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right:1%;
+}
+#a1{
+    position: relative;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    height: 80%;
+    width: 7%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 1%;
+}
+#TextHead{
+    position: absolute;
+    font-size: 90px;
+    font-family: "Pricedown";
+    top:-50%;
+    left:50%;
+    transform:translate(-50%);
+}
+#TextMid{
+    position: absolute;
+    width: 60%;
+    height: 275 px;
+    column-count: 2;
+    column-gap: 200px;
+    top: 525px;
+    left: 80px;
+    right: 0;
+    border-right: 5px groove black;
+    border-left: 5px groove black;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    font-size: 20px;
+}
+#Foot{
+    position: absolute;
+    top:850px;
+    left:-2px;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+#Foot:hover{
+    background-color:rgba(0,204,0);
+}
+#P1, #P2, #P3{
+    float: left;
+    margin-left: 4%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px
+}
+#GTA{
+    position: absolute ;
+    top:20%;
+    left:50%;
+    transform:translate(-50%);
+    font-size: 110px;
+    font-family:'Times New Roman', Times, serif
+}
+
