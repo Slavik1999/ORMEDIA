@@ -1,0 +1,27 @@
+#a0{
+    background-color: white;
+    height: 98%;
+    width: 98%;
+    border: 9px solid black;
+}
+#a1{
+    position: relative;
+    background-color: red;
+    height: 50%;
+    width: 50%;
+}
+#a2{
+    position: relative;
+    left: 933px;
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+}
+#a3{
+position: absolute;
+top:25%;
+left: 25%;
+background-color: greenyellow;
+height: 50%;
+width: 50%; 
+}
