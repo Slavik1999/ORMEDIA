@@ -4,58 +4,66 @@
 }
 body{
     background:url(../img/YCdWTJ.jpg);
-    width: 1890;
-    height: 900;
+    background-size: inherit;
+    width: auto;
+    /* height: 100%; */
 }
 #Head{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
-    left: -2px;
+    box-sizing: border-box;
+    left: 0;
     right: 0;
     width: 100%;
     height: 10%;
     background-color: rgba(0,0,0,0.3);
     line-height: 10%;
-    outline:3px solid black;
+    border: 3px solid black;
+    /* outline:3px solid black; */
 }
 #Head:hover{
     background-color:rgba(0,204,0,0.3);
     opacity: 1;
 }
 #a2{
-    float: right;
+    /* float: right; */
     transform: scaleX(-1);
-    height: 80%;
-    width: 7%;
-    position: absolute;
-    margin: auto;
-    top: 0;
+    height: 60px;
+    width: 100px;
+    /* position: absolute; */
+    /* margin: auto; */
+    /* top: 0;
     bottom: 0;
-    right:1%;
+    right:1%; */
+    margin: 0 10px;
 }
 #a1{
-    position: relative;
-    margin: auto;
-    top:0;
-    bottom: 0;
-    height: 80%;
-    width: 7%;
-    position: absolute;
+    /* position: relative; */
+    /* margin: auto; */
+    /* top:0;
+    bottom: 0; */
+    height: 60px;
+    width: 100px;
+    margin: 0 10px;
+    /* position: absolute;
     margin: auto;
     top: 0;
-    bottom: 0;
-    left: 1%;
+    bottom: 0; */
+    /* left: 1%; */
 }
 #TextHead{
-    position: absolute;
+    /* position: absolute; */
     font-size: 90px;
     font-family: "Pricedown";
-    top:-50%;
-    left:50%;
-    transform:translate(-50%);
+    /* top:-50%; */
+    /* left:50%; */
+    /* transform:translate(-50%); */
 }
 #TextMid{
-    position: absolute;
+    /* position: absolute; */
     width: 60%;
     height: 275 px;
     column-count: 2;
@@ -70,10 +78,11 @@ body{
     font-size: 20px;
 }
 #Foot{
-    position: absolute;
-    top:850px;
-    left:-2px;
-    width: 100%;
+    /* position: absolute; */
+    display: block;
+    /* top:850px; */
+    /* left:-2px; */
+    /* width: 100%; */
     height: 15%;
     background-color: rgba(0,0,0,0.3);
     border-radius: 10px;
@@ -92,11 +101,17 @@ body{
     font-size: 16px
 }
 #GTA{
-    position: absolute ;
-    top:20%;
-    left:50%;
-    transform:translate(-50%);
+    /* position: absolute ; */
+    /* top:20%; */
+    /* left:50%; */
+    /* transform:translate(-50%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
     font-size: 110px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    padding: 100px auto;
+    text-align: center;
 }
 
