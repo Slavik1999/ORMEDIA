@@ -6,7 +6,6 @@ body{
     background:url(../img/YCdWTJ.jpg);
     background-size: inherit;
     width: auto;
-    /* height: 100%; */
 }
 #Head{
     position: fixed;
@@ -22,55 +21,32 @@ body{
     background-color: rgba(0,0,0,0.3);
     line-height: 10%;
     border: 3px solid black;
-    /* outline:3px solid black; */
 }
 #Head:hover{
     background-color:rgba(0,204,0,0.3);
     opacity: 1;
 }
 #a2{
-    /* float: right; */
     transform: scaleX(-1);
     height: 60px;
     width: 100px;
-    /* position: absolute; */
-    /* margin: auto; */
-    /* top: 0;
-    bottom: 0;
-    right:1%; */
     margin: 0 10px;
 }
 #a1{
-    /* position: relative; */
-    /* margin: auto; */
-    /* top:0;
-    bottom: 0; */
     height: 60px;
     width: 100px;
     margin: 0 10px;
-    /* position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0; */
-    /* left: 1%; */
 }
 #TextHead{
-    /* position: absolute; */
     font-size: 90px;
     font-family: "Pricedown";
-    /* top:-50%; */
-    /* left:50%; */
-    /* transform:translate(-50%); */
+
 }
 #TextMid{
-    /* position: absolute; */
+    height: auto;
     width: 60%;
-    height: 275 px;
     column-count: 2;
-    column-gap: 200px;
-    top: 525px;
-    left: 80px;
-    right: 0;
+    column-gap: 200px;  
     border-right: 5px groove black;
     border-left: 5px groove black;
     font-family:'Times New Roman', Times, serif;
@@ -78,11 +54,13 @@ body{
     font-size: 20px;
 }
 #Foot{
-    /* position: absolute; */
     display: block;
-    /* top:850px; */
-    /* left:-2px; */
-    /* width: 100%; */
+    position: absolute;
+    margin-top: 50px; 
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     height: 15%;
     background-color: rgba(0,0,0,0.3);
     border-radius: 10px;
@@ -101,10 +79,6 @@ body{
     font-size: 16px
 }
 #GTA{
-    /* position: absolute ; */
-    /* top:20%; */
-    /* left:50%; */
-    /* transform:translate(-50%); */
     display: flex;
     align-items: center;
     justify-content: center;
