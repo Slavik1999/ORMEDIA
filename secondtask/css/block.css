@@ -42,3 +42,24 @@ background-color: orange;
     width: 33.33%;
     background-color: purple;
 }
+@media(max-width:640px){
+    #tright,#f1,#f2{
+        display:none;
+    }
+    #contbody{
+        margin-bottom: 3%;
+        height: 10%;
+        width: 100%;
+    }
+    #contfoot{
+        height: 10%;
+    }
+    #f3{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    #tleft{
+        width:100%;
+        margin-right: 0;
+    }
+}
