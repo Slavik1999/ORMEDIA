@@ -2,18 +2,26 @@ table{
     table-layout: fixed;
     border-spacing: 10px 20px;
 }
+
+
 #top{
     height: 100px;
     background-color: orange;
 }
+
+
 #midle{
     height: 300px;
     background-color: yellow;
 }
+
+
 #f1{
     height: 200px;
     background-color:blue;   
 }
+
+
 #f2{
     height: 150px;
     background-color: darkgray;   

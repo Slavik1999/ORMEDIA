@@ -3,13 +3,17 @@
     height: 820px;
     margin:auto;
 }
+
+
 #tleft{
- float:left;
- width: 49%;
- height: 10%;
- background-color: blue;
- margin-bottom: 10px;
+    float:left;
+    width: 49%;
+    height: 10%;
+    background-color: blue;
+    margin-bottom: 10px;
 }
+
+
 #tright{
     float:right;
     width: 49%;
@@ -17,12 +21,16 @@
     background-color:blue;
     margin-bottom: 10px;
 }
+
+
 #centr{
     clear: both;
     height: 40%;
     background-color: brown;
     margin-bottom: 30px;
 }
+
+
 #a31{
     float:left;
     background-color: black;
@@ -31,6 +39,8 @@
     height: 25%;
     margin-bottom: 30px;
 }
+
+
 #a32{
     float:left;
     background-color: black; 
@@ -39,6 +49,8 @@
     height: 25%;
     margin-bottom: 30px;
 }
+
+
 #a33{
     float:left;
     background-color: black;
@@ -46,6 +58,8 @@
     height: 25%;
     margin-bottom: 30px;
 }
+
+
 #a4{
     display: inline-block;
     width:472px;

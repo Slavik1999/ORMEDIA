@@ -2,11 +2,13 @@
     font-family: "Pricedown";
     src:url(../fonts/660_pricedown_rus.ttf);
 }
+
 body{
     background:url(../img/YCdWTJ.jpg);
     background-size: inherit;
     width: auto;
 }
+
 #Head{
     position: fixed;
     display: flex;
@@ -22,26 +24,30 @@ body{
     line-height: 10%;
     border: 3px solid black;
 }
+
 #Head:hover{
     background-color:rgba(0,204,0,0.3);
     opacity: 1;
 }
+
 #a2{
     transform: scaleX(-1);
     height: 60px;
     width: 100px;
     margin: 0 10px;
 }
+
 #a1{
     height: 60px;
     width: 100px;
     margin: 0 10px;
 }
+
 #TextHead{
     font-size: 90px;
     font-family: "Pricedown";
-
 }
+
 #TextMid{
     height: auto;
     width: 60%;
@@ -53,6 +59,7 @@ body{
     color:black;
     font-size: 20px;
 }
+
 #Foot{
     display: block;
     position: absolute;
@@ -65,9 +72,11 @@ body{
     background-color: rgba(0,0,0,0.3);
     border-radius: 10px;
 }
+
 #Foot:hover{
     background-color:rgba(0,204,0);
 }
+
 #P1, #P2, #P3{
     float: left;
     margin-left: 4%;
@@ -78,6 +87,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px
 }
+
 #GTA{
     display: flex;
     align-items: center;

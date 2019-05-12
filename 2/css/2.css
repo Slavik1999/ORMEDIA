@@ -4,12 +4,16 @@
     width: 98%;
     border: 9px solid black;
 }
+
+
 #a1{
     position: relative;
     background-color: red;
     height: 50%;
     width: 50%;
 }
+
+
 #a2{
     position: relative;
     left: 933px;
@@ -17,6 +21,8 @@
     height: 50%;
     width: 50%;
 }
+
+
 #a3{
 position: absolute;
 top:25%;
