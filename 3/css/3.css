@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+}
 body{
     background: url(../img/E075hjMaSl.jpg);
 }
 
-#Head{
+.Head{
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
@@ -15,7 +18,7 @@ body{
     border-radius: 0 0 20px 20px;
 }
 
-#menu{
+.menu{
     float: right;
     width: 10%;
     height: 600px;
@@ -34,13 +37,15 @@ a:hover{
     color: blue;
 }
 
-#Text{
+.Text{
     font-size: 45px;
     font-family: 'Pacifico', cursive;
     text-align: left;
 }
 
-#Foot{
+.Foot{
+    position: absolute;
+    bottom: 0;
     width: 90%;
     height: 15%;
     margin-left: 5%;
@@ -49,7 +54,7 @@ a:hover{
     background-color:rgba(65, 25, 0, 0.4);
 }
 
-#Spons{
+.Spons{
     position: relative;
     top: -30px;
     left: 10px;
@@ -83,9 +88,9 @@ a:hover{
 }
 
 #Contact{
-    position: absolute;
-    top:900px;
-    left:37%;
+    position: relative;
+    top:70px;
+    left:200px;
     font-size: 23px;
     font-weight: bold;  
     text-align: center;

@@ -1,11 +1,11 @@
-#cont{
+.cont{
     width: 1900px;
     height: 820px;
     margin:auto;
 }
 
 
-#tleft{
+.tleft{
     float:left;
     width: 49%;
     height: 10%;
@@ -14,7 +14,7 @@
 }
 
 
-#tright{
+.tright{
     float:right;
     width: 49%;
     height: 10%;
@@ -23,7 +23,7 @@
 }
 
 
-#centr{
+.centr{
     clear: both;
     height: 40%;
     background-color: brown;
@@ -31,7 +31,7 @@
 }
 
 
-#a31{
+.AfterCentrLeft{
     float:left;
     background-color: black;
     width: 600px; 
@@ -41,7 +41,7 @@
 }
 
 
-#a32{
+.AfterCentrMiddle{
     float:left;
     background-color: black; 
     width: 600px;
@@ -51,7 +51,7 @@
 }
 
 
-#a33{
+.AfterCentrRight{
     float:left;
     background-color: black;
     width: 600px;
@@ -60,7 +60,7 @@
 }
 
 
-#a4{
+.Footer{
     display: inline-block;
     width:472px;
     height:30%;

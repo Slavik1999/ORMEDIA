@@ -1,4 +1,4 @@
-#a0{
+.Container{
     background-color: white;
     height: 98%;
     width: 98%;
@@ -6,7 +6,7 @@
 }
 
 
-#a1{
+.TopLeft{
     position: relative;
     background-color: red;
     height: 50%;
@@ -14,7 +14,7 @@
 }
 
 
-#a2{
+.BottomRight{
     position: relative;
     left: 933px;
     background-color: blue;
@@ -23,7 +23,7 @@
 }
 
 
-#a3{
+.Middle{
 position: absolute;
 top:25%;
 left: 25%;
