@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+}
+body{
+    min-width: 400px;;
+}
+.ContainerHead{
+    height: 10%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color:rgba(0,0,0,0.2);
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.Head{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: cadetblue;
+    height: 100%;
+    width: 35%;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.ContainerPoints{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 8%;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.Point{
+    -webkit-box-flex:0;
+        -ms-flex:0 0 50px;
+            flex:0 0 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50%;
+    background-color: cadetblue;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.ContainerBody{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    height: 80%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.ContainerMenu{
+    width: 25%;
+    height: 100%;
+    margin-top: 1%; 
+}
+
+.Menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 375px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.M{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.ContainerPhoto{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 70%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 2%;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+}
+
+.Photo{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top:1%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 250px;
+    width: 250px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.SpanPhoto{
+    -webkit-box-ordinal-group:3;
+        -ms-flex-order:2;
+            order:2;
+}
+
+.imgPhoto{
+    width: 200px;
+    -webkit-box-ordinal-group:2;
+        -ms-flex-order:1;
+            order:1;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid cadetblue;
+}
+
+.ContainerFooter{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    background-color: cadetblue;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 50px;
+}
+
+@media(max-width:1550px){
+
+    .ContainerBody{
+        height: 100%;
+    }
+
+    .Menu{
+        height: 375px;
+    }
+
+    .ContainerHead{
+        height: 7%;
+    }
+
+    .ContainerPhoto{
+        height: 7%;
+    }
+
+    .Head{
+        font-size:2.5em;
+    }
+}
+
+@media(max-width:913px){
+    .ContainerBody{
+        height: auto;
+    }
+
+    .ContainerHead{
+        height: 5%;
+    }
+
+    .ContainerPhoto{
+        height: 5%;
+    }
+    
+    .Head{
+        font-size:2.0em;
+        min-width: 145px;
+    }
+}
