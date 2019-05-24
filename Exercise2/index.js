@@ -13,11 +13,24 @@ document.getElementsByClassName("ButtonStyle")[0].onclick = function () {
 document.getElementsByClassName("ButtonMaket")[0].onclick = function (){
     var Cont=document.querySelector(".container")
     Cont.remove();
-    var Body=document.body;
-    var Div=document.createElement("div");
-    Body.appendChild(Div);
-    Div.className="New";
     var el = document.querySelector("Link");
     el.href = "./ThirdStyle.css";
+    var Body=document.body;
+    var Container=document.createElement("div");
+    Body.appendChild(Container);
+    Container.className="Container";
+    var Header=document.createElement("div");
+    Body.appendChild(Header);
+    Header.className="Header";
+    var Telo=document.createElement("div");
+    Body.appendChild(Telo);
+    Telo.className="Body";
+    var pTelo=document.createElement("p");
+    pTelo.innerHTML="Otrisovka maketa flexbox";
+    Telo.appendChild(pTelo);
+    var Footer=document.createElement("div");
+    Body.appendChild(Footer);
+    Footer.className="Footer";
+    
 }
 
