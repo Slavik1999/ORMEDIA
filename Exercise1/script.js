@@ -1,7 +1,7 @@
 var Name = prompt('Введите ваше имя');
 var reg = /\d/g;
 if (Name.match(reg) === null) {
-    function reverse(Name){
+    function reverse(Name) {
         return Name.split("").reverse().join("");
     }
     alert(reverse(Name));
