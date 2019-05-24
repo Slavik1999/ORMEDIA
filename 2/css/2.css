@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.Container{
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    border: 5px solid black;
+}
+
+
+.TopLeft{
+    position: relative;
+    background-color: red;
+    height: 50%;
+    width: 50%;
+}
+
+
+.BottomRight{
+    position: relative;
+    left:50%;
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+}
+
+
+.Middle{
+position: relative;
+top:-75%;
+left: 25%;
+background-color: chartreuse;
+height: 50%;
+width: 50%; 
+}

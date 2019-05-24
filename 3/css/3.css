@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+body{
+    background: url(../img/E075hjMaSl.jpg);
+    min-width: 1257px;
+}
+
+.Head{
+    width: 93%;
+    min-width: 1257px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color:rgba(65, 25, 0, 0.4);
+    height: 15%;
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    border-radius: 0 0 20px 20px;
+}
+
+.menu{
+    float: right;
+    width: 10%;
+    height: 600px;
+    background-color:rgba(0, 0, 0, 0.4);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: blue;
+}
+
+.Text{
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    text-align: left;
+}
+
+.Foot{
+    position: absolute;
+    bottom: 0;
+    width: 93%;
+    min-width: 1257px;
+    height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px 20px 0 0;
+    background-color:rgba(65, 25, 0, 0.4);
+}
+
+.Spons{
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.GAZ{
+    position:relative;
+    top:9px;
+    margin-left: 1%;
+    height: 60px;
+    width: 60px;
+}
+
+.adid{
+    position:relative;
+    top:9px;
+    margin-left: 1%;
+    height: 60px;
+    width: 60px;
+}
+
+.MB{
+    position:relative;
+    top:9px;
+    margin-left: 1%;
+    height: 60px;
+    width: 60px;
+}
+
+.Contact{
+    position: relative;
+    top:35%;
+    left: 5%;
+    font-size: 23px;
+    font-weight: bold;  
+    text-align: center;
+}

@@ -1,0 +1,118 @@
+@font-face{
+    font-family: "Pricedown";
+    src:url(../fonts/660_pricedown_rus.ttf);
+}
+*{
+    margin: 0;
+}
+body{
+    background:url(../img/YCdWTJ.jpg);
+    min-width: 1205px;
+}
+
+.Head{
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0,0,0,0.3);
+    line-height: 10%;
+    border: 3px solid black;
+    min-width: 1256px;
+}
+
+.Head:hover{
+    background-color:rgba(0,204,0,0.3);
+    opacity: 1;
+}
+
+.ImgRight{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 60px;
+    width: 100px;
+    margin: 0 10px;
+}
+
+.ImgLeft{
+    height: 60px;
+    width: 100px;
+    margin: 0 10px;
+}
+
+.TextHead{
+    font-size: 90px;
+    font-family: "Pricedown";
+}
+
+.TextMid{
+    position: relative;
+    top:0px;
+    left: 40px;
+    height: auto;
+    width: 1100px;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 200px;
+    column-gap: 200px;  
+    border-right: 5px groove black;
+    border-left: 5px groove black;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    font-size: 20px;
+}
+
+.Foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 1256px;
+    height: 15%;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.Foot:hover{
+    background-color:rgba(0,204,0);
+}
+
+.FootText{
+    float: left;
+    margin-left: 4%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px
+}
+
+.GTA{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 400px;
+    font-size: 110px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+

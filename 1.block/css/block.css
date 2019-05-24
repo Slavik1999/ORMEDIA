@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    align-content: flex-start;
+}
+.HeaderBlockLeft{
+    width: 49.5%;
+    height: 10%;
+    background-color: blue;
+    margin-right: 1%;
+}
+.HeaderBlockRight{
+    width: 49.5%;
+    height: 10%;
+    background-color: blue;
+}
+.Body{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 40%;
+    background-color: brown;
+}
+.Pre-FooterBlockLeft{
+    width:33%;
+    height: 17%;
+    background-color: blueviolet;
+    margin-right: 0.5%; 
+}
+.Pre-FooterBlockMiddle{
+    width:33%;
+    height: 17%;
+    background-color: blueviolet; 
+    margin-right: 0.5%; 
+}
+.Pre-FooterBlockRight{
+    width:33%;
+    height: 17%;
+    background-color: blueviolet; 
+}
+.FooterBlockLeft{
+    margin-left: 0.5%;
+    margin-top: 1%;
+    width: 24%;
+    height: 29%;
+    background-color: red;
+    margin-right: 1%;
+}
+.FooterBlockAfterLeft{
+    margin-top: 1%;
+    width: 24%;
+    height: 29%;
+    background-color: red;
+    margin-right: 1%;
+}
+.FooterBlockMiddle{
+    margin-top: 1%;
+    width: 24%;
+    height: 29%;
+    background-color: red;
+    margin-right: 1%;
+}
+.FooterBlockRight{
+    margin-top: 1%;
+    width: 24%;
+    height: 29%;
+    background-color: red;
+}
+
+
