@@ -13,7 +13,7 @@
     width: 100px;
     background-color: yellow;
 }
-#container{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
