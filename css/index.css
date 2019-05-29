@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    border: 0;  
+}
+body{
+    min-width: 1000px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.ContainerPictureNav{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(255,211,0,0.4);
+}
+.picture{
+    position: absolute;
+    top:80px;
+    left: 50%;
+    margin-left: -150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    background-image: url("https://w-dog.ru/wallpapers/1/17/508269182452224.jpg");
+    transition: transform 1s ease;
+}
+.picture:hover{
+    transform: scale(1.5);
+}
+#Navigation{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: 180px;
+    height: 280px;
+    margin-left: -180px;
+}
+#Triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 30px;
+    border-color: transparent transparent transparent rgba(0,0,0,0.3);
+}
+#Triangle:hover{
+    border-color: transparent transparent transparent green;
+}
+.TriangleText{
+    margin-left: -27px;
+    margin-top: -22px;
+}
+.Text{
+    font-size: 13px;
+}
+.Bar{
+    width: 190px;
+    height: 280px;
+    background-color: rgba(0,0,0,0.3);
+}
+.Button1,.Button2,.Button3,.Button4,.Button5{
+    border: 1px solid black;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top: 20px;
+    height: 30px;
+    width: 160px;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.ImgClose{
+    width: 15px;
+    height: 15px;
+}
+.Footer{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.FooterInfoTextbox{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.4);
+}
+#FooterName{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    padding-left: 14px;
+    width: 99.3%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #454545;
+}
+#FooterEmail{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    padding-left: 14px;
+    width: 99.3%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #454545;
+    colro:white
+}
+#FooterSubject{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    padding-left: 14px;
+    width: 99.3%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #454545;
+}
+
+.button-submit{
+    width: 90px;
+    height: 37px;
+    background-color: black;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: rgba(215, 252, 245, 255);
+    text-align: center;
+    align-self: flex-end;
+    margin-right:4px;
+    cursor: pointer;
+}
+.button{
+
+    width: 90px;
+    height: 37px;
+    background-color: black;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: rgba(215, 252, 245, 255);
+    text-align: center;
+    align-self: flex-end;
+    margin-right:4px;
+}
+.button-submit:hover{
+    background-color: rgba(255,211,0,0.4);
+}
+.ForName{
+    display: hide;
+    width: 200px;
+    height: 20px;;
+    margin-bottom: 10px;
+}
+
