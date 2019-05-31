@@ -1,0 +1,64 @@
+=border-top($property)
+    border-top-left-radius: $property
+    border-top-right-radius: $property
+=border-bottom($property)
+    border-bottom-left-radius: $property
+    border-bottom-right-radius: $property
+%flex-center
+    display: flex
+    align-items: center
+    justify-content: center
+$width: 100%
+*
+    margin: 0
+
+.Container
+    width: $width
+    height: 100%
+    flex-flow: wrap
+    @extend %flex-center
+    align-items: flex-start
+
+.Header
+    @extend %flex-center
+    width: $width
+    height: 10%
+    background-color: rgba(0,0,0,0.7)
+    +border-bottom(10px)
+    margin-bottom: 0.9%
+
+.Body
+    @extend %flex-center
+    align-items: flex-start
+    width: $width
+    height: 78%
+
+.Bodytext
+    @extend %flex-center
+    width: 90%
+    height: 50%
+    background-color: rgba(0,0,0,0.3)
+    +border-top(10px)
+    +border-bottom(10px)
+
+.Footer
+    @extend %flex-center
+    width: $width
+    height: 10.2%
+    background-color: black
+    color: white
+    +border-top(10px)
+
+@media (max-width: 1024px)
+    
+    .Body
+        height: 78%
+        margin-bottom: 1%
+    
+    .Bodytext
+        width: $width
+        height: 100%
+
+
+
+

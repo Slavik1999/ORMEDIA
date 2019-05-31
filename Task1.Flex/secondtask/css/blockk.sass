@@ -1,0 +1,115 @@
+=F-property($background-color)
+    width: 33%
+    background-color: $background-color 
+    height: 23%
+    margin-right: 0.5%
+$height-header: 10%
+$margin-top-or-bottom: 1%
+.Container
+    display: flex
+    flex-flow: wrap
+    width: 100%
+    height: 98%
+    align-content: flex-start
+
+
+.TopLeft
+    height: $height-header
+    width: 30%
+    background-color: red
+    margin-right: 1%
+
+
+.TopRight
+    height: $height-header
+    width: 69%
+    background-color: orange
+
+
+.Middle
+    margin-top: $margin-top-or-bottom
+    height: 65%
+    width: 100%
+    background-color: green
+    margin-bottom: $margin-top-or-bottom
+
+
+.FLeft
+    +F-property(brown)
+
+
+.FMiddle
+    +F-property(blue)
+
+.FRight
+    +F-property(purple)
+    margin-right: 0
+
+@media( max-width: 1024px)
+
+    .FLeft
+        display: none
+    
+    .TopLeft
+        order: 3
+        height: 65%
+        width: 100%
+        margin-right: 0
+        margin-bottom: $margin-top-or-bottom
+    
+    
+    .TopRight
+        order: 1
+        height: 10%
+        width: 30%
+        margin-right: 1%
+    
+    
+    .Middle
+        order: 4
+        margin-top: 1%
+        height: 23%
+        width: 49.5%
+        margin-bottom: 0
+        margin-right: 1%
+        margin-top: 0
+    
+    
+    .FRight
+        order: 2
+        width: 69%
+        margin-bottom: $margin-top-or-bottom
+        height: 10%
+    
+    
+    .FMiddle
+        order: 5
+        width: 49.5%
+        height: 23%
+        margin-right: 0
+
+@media (max-width: 640px)
+
+    .TopRight, .FLeft, .FMiddle
+        display: none
+    
+    .FRight
+        order: 2
+        width: 100%
+        margin-bottom: $margin-top-or-bottom
+        height: 10%
+    
+
+    .TopLeft
+        order: 3
+        width: 100%
+        margin-right: 0
+        height: 79%
+
+    .Middle
+        order: 1
+        height: 10%
+        margin-bottom: 2%
+        width: 100%
+        margin-right: 0 
+
