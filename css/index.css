@@ -3,11 +3,23 @@ body{
     margin: 0;
     font-family: 'Noto Sans HK', sans-serif;
 }
+.row{
+    margin: 0;
+}
 .header{
     background-color: #000;
 }
-.logo{
+.img__logo{
     width: 100px;
+    margin-left: 15%;
+}
+.fa-vk,.fa-instagram,.fa-youtube{
+    color:#fff;
+    font-size: 35px;    
+}
+.fa:hover{
+    text-decoration: none;
+    color:#fff;
 }
 .form{
     margin-top: 35px;
@@ -19,17 +31,32 @@ body{
     border-radius: 5px;
 }
 .button__form{
-    padding: 5px 5px;
+    margin-left: 5px;
+    padding: 2px 5px 6px 5px;
     border-radius: 5px;
+    font-size: 25px;
+    color:#fff;
 }
-.nav{
-    justify-content: center;
+.button__form:hover{
+    color:#000;
 }
 .nav__link{
     margin-top: 35px;
-    color: #fff;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 .nav__link:last-child{
     margin-right: 0px;
+}
+.p-0{
+    padding: 0;
+}
+.cards{
+    background-color: #000;
+}
+.btn{
+    background-color: black;
+    border: 0;
+}
+.btn:hover{
+    background-color: black;
 }
